@@ -184,7 +184,8 @@ export function newQuestionLike(question: Question, seed: number): Question {
   );
 }
 
-/** The concept versions a set of questions showed, to save as `lastShown`. */
+//The concept versions a set of questions showed, to save as `lastShown`. 
+
 export function shownVersions(
   questions: readonly Question[],
 ): Record<string, string> {
